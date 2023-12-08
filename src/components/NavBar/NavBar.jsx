@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css"; // por si hace falta añadir estilos personalizados
-import genomapharma from "../../assets/genomapharma.jpg";
+import genomapharma from "../../assets/revolution-main.jpeg";
 import mainphoto from "../../assets/mainphoto.jpg";
 import { Link } from "react-router-dom";
 
