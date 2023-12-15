@@ -14,7 +14,7 @@ export const Card = () => {
       try {
         const response = await axios.get("/getCardsIndex", {
           params: {
-            isGenoma: true,
+            isGenoma: false,
           },
         });
 

@@ -15,7 +15,7 @@ export const ProductsList = () => {
       
         const response = await axios.get("/getProducts", {
           params: {
-            isGenoma: true,
+            isGenoma: false,
           },
         });
 

@@ -11,7 +11,7 @@ export const AboutUs = () => {
       try {
         const response = await axios.get("/getAboutUs", {
           params: {
-            isGenoma: true,
+            isGenoma: false,
           },
         });
 

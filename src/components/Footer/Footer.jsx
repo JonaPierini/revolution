@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import genomapharma from "../../assets/genomapharma.jpg";
+import revolution from "../../assets/revolution-main.jpeg";
 import whatsapp from "../../assets/whatsapp.png";
 import { Link } from "react-router-dom";
 
@@ -9,11 +9,11 @@ export const Footer = () => {
     <div className="footer-container">
       <div className="brand-section">
         <h1 className="footer-font">
-          <span className="color-rojo">GENOMA </span>
+          <span className="color-rojo">REVOLUTION </span>
           <span className="color-azul">PHARMA</span>
         </h1>
         <Link to={"/"}>
-          <img src={genomapharma} alt="Logo" className="img_footer" />
+          <img src={revolution} alt="Logo" className="img_footer" />
         </Link>
       </div>
 

@@ -19,12 +19,12 @@ export const Auth = () => {
     setLoader(true);
 
     axios
-      .post("/modifyById", { id: inputChange })
+      .post("/modifyById", { id: inputChange, isGenoma: false })
       .then((response) => {
         if (response.data === true) {
           Swal.fire({
             title: "Authentic product",
-            text: "You have an authentic product from the Genoma Pharma brand",
+            text: "You have an authentic product from the Revolution Pharma brand",
             icon: "success",
             confirmButtonColor: "#93BE4F",
           });
