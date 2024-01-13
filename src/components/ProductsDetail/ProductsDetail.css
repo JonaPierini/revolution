@@ -12,9 +12,8 @@
   
   .product-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
-    width: 80%;
   }
   
   .product-info {
