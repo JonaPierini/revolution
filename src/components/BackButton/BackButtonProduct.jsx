@@ -9,7 +9,7 @@ export const BackButtonProduct = () => {
   };
 
   return (
-    <button onClick={handleBack} type="button" className="btn btn-dark mb-3">
+    <button onClick={handleBack} type="button" className="btn btn-dark mb-3 mt-3">
       Back
     </button>
   );

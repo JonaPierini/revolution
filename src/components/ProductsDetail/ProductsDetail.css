@@ -1,5 +1,8 @@
 .product-detail-container {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
   }
   
   .product-header {

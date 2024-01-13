@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./ProductItem.css";
 
 export const ProductItem = ({ product }) => {
   const navigate = useNavigate();
@@ -18,7 +17,11 @@ export const ProductItem = ({ product }) => {
     >
       <img src={product.image} className="card-img-top" alt={product.name} />
       <div className="card-body">
-        <div className="card-body-products">
+        <div style={{
+          display : "flex",
+          flexDirection : "column",
+          alignItems : "center"
+          }}>
           <h5 className="card-title">{product.name}</h5>
           <button className="expand-btn" onClick={handleNavigate}>
             View more
