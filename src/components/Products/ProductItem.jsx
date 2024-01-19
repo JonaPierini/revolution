@@ -23,7 +23,7 @@ export const ProductItem = ({ product }) => {
           alignItems : "center",
           textAlign: "center",
           }}>
-          <h6 className="card-title" style={{ whiteSpace: "pre-line" }}>{product.name}</h6>
+          <h6 className="card-title" style={{ whiteSpace: "pre-line" }} dangerouslySetInnerHTML={{ __html: product.name }}></h6>
           <button className="expand-btn" onClick={handleNavigate}>
             View more
           </button>
